@@ -1,0 +1,18 @@
+for compiling ItemFrame.java, ItemPanel.java, ItemModel.java
+type the following command in "model and ui" folder
+
+javac -d c:\java1\inventory\pl\classes -classpath 
+c:\java1\inventory\pl\lib\inventorydl.jar;c:\java1\inventory\pl\classes;.  *.java
+
+
+create a file named as Main.java in pl folder i.e. "com\thinking\machines\inventory\pl"
+according to its package. Now stay in pl folder and type to compile it :-
+
+javac -classpath c:\java1\inventory\pl\lib\inventorydl.jar;c:\java1\inventory\pl\classes;.  *.java
+
+and after compiling it move to folder "java1\inventory" which contains dl and pl folder and type to execute:-
+
+java -classpath pl\lib\inventorydl.jar;pl\classes;. com.thinking.machines.inventory.pl.Main
+
+ 
+ 
