@@ -1,7 +1,6 @@
 # <div align='center'> TMInventory </div>
 
-A Java Swing based inventory management system with both file handling and database support.
-The dbdl folder is for database version of this application and dl folder is for file handling support of this version
+A Java Swing based inventory management system with both file handling and database support. The dbdl folder is for database version of this application and dl folder is for file handling support of this application.
 
 A user can apply CRUD operations on the data and can also save list of products in PDF form.
 
